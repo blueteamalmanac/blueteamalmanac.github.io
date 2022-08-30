@@ -1,3 +1,30 @@
 site_name: My Docs
+repo_url: https://github.com/blueteamalmanac/blueteamalmanac.github.io
+repo_name: blueteamalmanac/blueteamalmanac.github.io
+plugins:
+  - search
 theme:
   name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+extra:
+  generator: false
+
