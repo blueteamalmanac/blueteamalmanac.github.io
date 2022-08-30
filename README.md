@@ -1,0 +1,1 @@
+# blueteamalmanac.github.io
