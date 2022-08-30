@@ -3,6 +3,7 @@ repo_url: https://github.com/blueteamalmanac/blueteamalmanac.github.io
 repo_name: blueteamalmanac/blueteamalmanac.github.io
 plugins:
   - search
+  - glightbox
 theme:
   name: material
   palette:
@@ -28,3 +29,10 @@ theme:
 extra:
   generator: false
 
+markdown_extensions:
+  - attr_list
+  - footnotes
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg

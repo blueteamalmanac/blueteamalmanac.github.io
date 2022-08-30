@@ -1,17 +1,5 @@
-# Welcome to MkDocs
+# Blue Team Almanac
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This wiki aims to document useful blue team patterns and resources that can be used to rapidly kick-start a functional defensive security team at your organisation.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Please use the navigation panel or the :material-menu: icon on the top left to browse various blue team operational topics.
